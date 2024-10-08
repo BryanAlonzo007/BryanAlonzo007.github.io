@@ -1,0 +1,40 @@
+header {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+header nav {
+    overflow: hidden;
+    padding: 10px;
+    background-color: #000;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 10px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+header nav ul li:hover {
+    background-color: #898989;
+    transform: scale(1.05);
+}
